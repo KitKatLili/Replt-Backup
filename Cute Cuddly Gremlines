@@ -1,0 +1,2 @@
+def welcome():
+  print("Welcome to the Hundred Acre Wood. Where do you want to go? 1). Pooh's House 2). Piglet's House 3). Tigger's House.")
