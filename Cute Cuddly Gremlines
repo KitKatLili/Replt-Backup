@@ -1,2 +1,20 @@
 def welcome():
-  print("Welcome to the Hundred Acre Wood. Where do you want to go? 1). Pooh's House 2). Piglet's House 3). Tigger's House.")
+  print("Hi, you are in the Hundred Acre Woods! Where would you like to go? 1). Pooh's House 2). Piglet's House 3). Tigger's House")
+  answer = input(">")
+  if answer == "1":
+    print("Alright, taking you to Pooh's House!")
+    pooh_house()
+  if answer == "2":
+    print("Alright, taking you to Piglet's House!")
+    piglet_house()
+  if answer == "3":
+    print("Alright, taking you to Tigger's House!")
+
+def pooh_house():
+  print("Welcome to my house! I am Pooh. What do you want to do? 1). Have some tea and hunny 2). Play poohsticks")
+  answer = input(">")
+    if answer == "1":
+      print("Great! I was getting hungry.")
+      pooh_backyard()
+    if answer == "2":
+       print(
