@@ -17,4 +17,8 @@ def pooh_house():
       print("Great! I was getting hungry.")
       pooh_backyard()
     if answer == "2":
-       print(
+       print("Okey dokey! Let's go to the bridge!")
+       poohsticks_bridge()
+def pooh_backyard():
+  print("*You and Pooh sit down* *You both eay hunny and drink some tea*/nPooh: Anyways...What do you wanna do after this? 1.) We can go to Tigger's House, where he is hosting a birthday party (PLEASE CHOOSE THIS, BIRTHDAY CAKE IS MY FAVORITE FOOD.)  ")
+ 
